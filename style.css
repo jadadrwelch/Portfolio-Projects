@@ -1,0 +1,66 @@
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px
+}
+header #state-name {
+    float: left;
+    margin-right: 20px 
+}
+header #state-name h1 {
+    margin: 0;
+    
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a {
+    color: #DC9750;
+    font-weight: bold;
+}
+header a:hover {
+    color: #734330;
+    font-weight: bold;
+}
+/* Showcase Styles */
+#showcase {
+    min-height: 400px;
+    background: url('../images/liberty2.png') no-repeat 0 0;
+    color: #eaece0;
+    text-align: center;
+    padding: 80px 0;
+   
+}
+#showcase h1 {
+    margin: 100;
+    padding: 100px 0 20px 0;
+    font-size: 55px;
+    text-shadow: 2px 2px #000;
+}
+#showcase p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+/* Box Styles */
+#boxes {
+    margin-top: 20px
+}
+#boxes .box {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+#boxes .box img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+footer {
+    padding: 20px;
+    margin: 20px;
+    color: #ffffff;
+    background-color: #DC9750;
+    text-align: center;
+}
