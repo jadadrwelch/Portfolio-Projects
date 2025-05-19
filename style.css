@@ -299,3 +299,36 @@ footer {
    
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+    header #state-name h1 {
+        font-size: 24px;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header nav {
+        float: none;
+        margin-top: 0;
+    }
+    header li {
+        float: none;
+        display: block;
+        padding: 10px 0;
+    }
+    #showcase h1 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    #showcase p {
+        font-size: 18px;
+    }
+    #boxes .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .buff-table {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
