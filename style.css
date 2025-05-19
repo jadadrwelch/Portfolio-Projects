@@ -143,6 +143,7 @@ header a:hover {
 
 #bing-img {
     margin: 20px;
+    
 }
 
 #bing-img .container6 {
@@ -155,6 +156,8 @@ header a:hover {
 #bing-img .container6 img {
     width: 200px;
     margin-bottom: 10px;
+    display: block;
+    margin: 40px auto;
 
 }
 
