@@ -20,7 +20,7 @@ header {
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #DC9750 3px solid;
+    border-bottom: #DC9750 3px solid;                                                                                 
 }
 
 header a {
@@ -95,10 +95,162 @@ header a:hover {
     width: 200px;
     margin-bottom: 10px;
 }
+
+/*Binghamton Styles*/
+
+.main-title2 {
+    text-align: center;
+    font-size: 30px;
+    color:#734330;
+    margin-top: 20px;
+}
+.container5 {
+    background-image: url('./img/bing3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    padding: 2rem;
+    color: white;
+    min-height: 100vh;
+    
+}
+
+.facts-list2 {
+    float: none;
+    font-size: large;
+}
+
+
+.main-third {
+    float: none;
+    font-size: larger;
+    font-size: 30px;
+}
+.food-title {
+    float: none;
+    font-size: larger;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+.food-list {
+    float: left;
+    font-size: large;
+}
+
+
+#bing-img {
+    margin: 20px;
+}
+
+#bing-img .container6 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+#bing-img .container6 img {
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+#bing-img::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#sidebar-bing {
+    text-align: center;
+    position: relative;
+
+}
+
+/* Buffalo Styles*/
+
+.main-fourth {
+    text-align: center;
+    font-size: 30px;
+    color: #dc9750;
+    margin-top: 20px;
+}
+
+#main .container7 img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#sidebar-buff {
+    text-align: center;
+    position: relative;
+}
+
+.facts-list3 {
+    float: none;
+    font-size: large;
+}
+
+.buff-table {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(15%);
+  border-collapse: collapse;
+  margin-right: 40px; 
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 400px; 
+}
+
+.buff-table th,
+.buff-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+
+/*New York City Styles*/
+.main-title {
+    text-align: center;
+    font-size: 30px;
+    color: #234b50;
+    margin-top: 20px;
+}
+
+.container2 {
+  background-image: url('./img/nyc2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  padding: 2rem;
+  color: white;
+  min-height: 100vh;
+ 
+}
+
+#sidebar-nyc {
+    text-align: center;
+   
+}
+
+.facts-list {
+    float: left;
+    font-size:large;  
+}
+/* Footer Styles */
+
 footer {
     padding: 20px;
-    margin: 20px;
+    margin-top: 20px;
     color: #ffffff;
-    background-color: #DC9750;
+    background: #dc9750;
     text-align: center;
+   
 }
+
