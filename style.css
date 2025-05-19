@@ -180,7 +180,7 @@ header a:hover {
 }
 
 #main .container7 img {
-    width: 300px;
+    width: 400px;
     margin-bottom: 10px;
 }
 
@@ -201,8 +201,8 @@ header a:hover {
   transform: translateY(15%);
   border-collapse: collapse;
   margin-right: 40px; 
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border: 1px solid #234b50;
   width: 400px; 
 }
 
@@ -212,6 +212,32 @@ header a:hover {
   padding: 10px;
   text-align: left;
 }
+
+/* Ask us Styles*/
+.form-container {
+  width: 300px;
+  margin: 100px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 
 
 /*New York City Styles*/
