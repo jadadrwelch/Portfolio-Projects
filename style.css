@@ -188,8 +188,16 @@ header a:hover {
     margin-top: 20px;
 }
 
+#main .container7 {
+    text-align: center;
+
+}
+
 #main .container7 img {
     width: 400px;
+    max-width: 400px;
+    display:block;
+    margin: 20px auto;
     margin-bottom: 10px;
 }
 
@@ -199,20 +207,21 @@ header a:hover {
 }
 
 .facts-list3 {
+    list-style: none;
     float: none;
     font-size: large;
 }
 
-.buff-table {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(15%);
+.buff-table { {
+  margin: 20px auto;
   border-collapse: collapse;
-  margin-right: 40px; 
   background-color: #ffffff;
   border: 1px solid #234b50;
-  width: 400px; 
+  width: 80%; 
+  max-width: 600px;
+  text-align: center;
+}
+
 }
 
 .buff-table th,
