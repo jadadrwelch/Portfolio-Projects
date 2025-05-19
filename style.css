@@ -140,6 +140,12 @@ header a:hover {
     font-size: large;
 }
 
+.img-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
 #bing-img {
     margin: 20px;
