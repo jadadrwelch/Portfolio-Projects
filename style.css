@@ -173,6 +173,9 @@ header a:hover {
     clear: both;
 }
 
+.bing-img1 {
+    position: absolute;
+}
 #sidebar-bing {
     text-align: center;
     position: relative;
