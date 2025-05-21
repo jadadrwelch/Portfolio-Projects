@@ -223,6 +223,7 @@ header a:hover {
   width: 80%; 
   max-width: 600px;
   text-align: center;
+  position: absolute;
 }
 
 }
@@ -284,7 +285,6 @@ form input {
 
 #sidebar-nyc {
     text-align: center;
-   
 }
 
 .facts-list {
