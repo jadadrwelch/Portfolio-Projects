@@ -1,0 +1,49 @@
+Index: Calculator.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Simple Python Calculator\n\n# Ask user for two numbers\nnum1 = float(input(\"Enter the first number: \"))\nnum2 = float(input(\"Enter the second number: \"))\n\n# Ask user for an operation\nprint(\"Choose an operation: +, -, *, /\")\noperation = input(\"Enter your choice: \")\n\n# Perform the operation using if/elif/else\nif operation == \"+\":\n    result = num1 + num2\nelif operation == \"-\":\n    result = num1 - num2\nelif operation == \"*\":\n    result = num1 * num2\nelif operation == \"/\":\n    # Prevent division by zero\n    if num2 == 0:\n        print(\"Error: Cannot divide by zero.\")\n        result = None\n    else:\n        result = num1 / num2\nelse:\n    print(\"Invalid operation.\")\n    result = None\n\n# Show the result\nif result is not None:\n    print(\"Result:\", result)\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Calculator.py b/Calculator.py
+--- a/Calculator.py	(revision dfc07dd538f3d907abd11507c7a2412daa834863)
++++ b/Calculator.py	(date 1762314506261)
+@@ -1,31 +1,7 @@
+-# Simple Python Calculator
+-
+-# Ask user for two numbers
+-num1 = float(input("Enter the first number: "))
+-num2 = float(input("Enter the second number: "))
+-
+-# Ask user for an operation
+-print("Choose an operation: +, -, *, /")
+-operation = input("Enter your choice: ")
+-
+-# Perform the operation using if/elif/else
+-if operation == "+":
+-    result = num1 + num2
+-elif operation == "-":
+-    result = num1 - num2
+-elif operation == "*":
+-    result = num1 * num2
+-elif operation == "/":
+-    # Prevent division by zero
+-    if num2 == 0:
+-        print("Error: Cannot divide by zero.")
+-        result = None
+-    else:
+-        result = num1 / num2
+-else:
+-    print("Invalid operation.")
+-    result = None
+-
+-# Show the result
+-if result is not None:
+-    print("Result:", result)
++-----BEGIN OPENSSH PRIVATE KEY-----
++b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
++QyNTUxOQAAACBEPDLinCfMod9jz81E+dcbX0v5iSbZkbrd/7FlbIKdtQAAAKBGGjmXRho5
++lwAAAAtzc2gtZWQyNTUxOQAAACBEPDLinCfMod9jz81E+dcbX0v5iSbZkbrd/7FlbIKdtQ
++AAAECwaM+GLya1BWjWpQYb8CMroX1au6+f69lc1v5YcL44xUQ8MuKcJ8yh32PPzUT51xtf
++S/mJJtmRut3/sWVsgp21AAAAGGphZGFkcndlbGhjNjEzQGdtYWlsLmNvbQECAwQF
++-----END OPENSSH PRIVATE KEY-----
