@@ -1,14 +1,13 @@
 # Portfolio-Projects
 
 Badges:
+![Build Status](https://github.com/jadadrwelch/Portfolio-Projects/actions/workflows/ci.yml/badge.svg)
 
-[https://img.shields.io/badge/license-MIT-green.svg" alt="License MIT">
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-https://img.shields.io/badge/lang-JavaScript-blue.svg" alt="Primary Language">
+![Language](https://img.shields.io/badge/lang-JavaScript-blue.svg)
 
-https://img.shields.io/github/last-commit/jadadrwelch/portfolio-projects.svg" alt="Last Commit">
-
-(https://github.com/jadadrwelch/portfolio-projects/actions/workflows/ci.yml/badge.svg" alt="Build Status">
+![Last Commit](https://img.shields.io/github/last-commit/jadadrwelch/Portfolio-Projects.svg)
 
 
 
