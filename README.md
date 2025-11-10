@@ -1,5 +1,5 @@
 # Portfolio-Projects
-About Me
+
 I’m an aspiring software engineer focused on building intuitive, user-friendly applications. My current projects explore front-end design and full-stack development using HTML, CSS, and Python.
 
 Badges:
