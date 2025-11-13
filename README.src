@@ -1,0 +1,28 @@
+# Portfolio-Projects
+
+This repository holds my three completed projects that I am proud to present. It consists of a Python calculator, a New York website, and a cost calculator. These projects are beneficial for those who wish to perform calculations with ease, inquire more about New York state and three cities that reside within, and to perform cost calculations based on distance traveled.
+
+ABOUT ME
+I’m an aspiring software engineer pusring my Bachelor's of Science in Software Engineering. I am focused on building intuitive, user-friendly applications. My current projects explore front-end design and full-stack development using HTML, CSS, and Python. My target role is an internship or junior developer roles to gain hands-on experience in building web and software applications. I currently reside in Emmet, AR. My contacts are listed below:
+Phone: 870-602-0088
+Email: jwelch14@wgu.edu
+Linkedin: https://www.linkedin.com/in/jada-welch-882a04239/
+
+Badges:
+![Build Status](https://github.com/jadadrwelch/Portfolio-Projects/actions/workflows/ci.yml/badge.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Language](https://img.shields.io/badge/lang-Python-blue.svg) ![Last Commit](https://img.shields.io/github/last-commit/jadadrwelch/Portfolio-Projects.svg)
+
+Python Calulator: Demonstrated input validation to prevent user errors. People need a quick and reliable way to perform basic math operations without using a physical calculator or online ads-filled tools.
+Stack: Python with PyCharm. I would eventually like to add elements that would make the calculator more user friendly for scientific needs.
+Results and Metrics: Successfully handled 100% of valid inputs without errors during testing, providing instant calculation results under 0.1 seconds.
+
+New York Webiste: Built and deployed a multi page site demonstrating front end fundamentals. Travelers and users needed a simple website to explore key information and cities in New York.
+Stack: HTML5, CSS, Java with Visual studio code. I would like to add more pages to alternate destinations.
+Results and Metrics: Deployed a fully responsive multi-page site with 0 layout errors across devices and achieved 100% uptime on deployment.
+
+Cost Calculator: Applied functions and logic to simulate real cost calculations. Users needed a tool to quickly estimate total costs based on miles per gallon and  dollars per gallon.
+Stack: Python with PyCharm. I would like to add dynamic tax or currency conversion to this project.
+Results and Metrics: Accurately calculated total costs for 50+ test scenarios, delivering results instantly with validated inputs to prevent errors.
+
+
+
+
